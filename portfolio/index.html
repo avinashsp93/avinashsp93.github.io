@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- 1. HEADER/NAVBAR -->
+
+    <header>
+        <nav id="header" class="navbar-menu level is-size-5">
+            <a class="navbar-item" id="anchor-home">
+                <span>Home</span>
+            </a>
+        
+            <a class="navbar-item" id="anchor-skills">
+                <span>Skills</span>
+            </a>
+        
+            <a class="navbar-item" id="anchor-projects">
+                <span>Projects</span>
+            </a>
+
+            <div class="navbar-brand">
+                <a class="navbar-item" href="">
+                    <img src="./img/logo/logo.png">
+                </a>
+            
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <a class="navbar-item" id="anchor-clients">
+                <span>Clients</span>
+            </a>
+
+            <a class="navbar-item" id="anchor-activities">
+                <span>Activities</span>
+            </a>
+
+            <a class="navbar-item" id="anchor-contact">
+                <span>Contact</span>
+            </a>
+        </nav>
+    </header>
+
+    <!-- 2. HOME -->
+
+    <div id="cover">
+        <img src="./img/cover/avi_img_1.jpg" alt="">
+        <div class="container">
+            <div id="bio-self" class="has-text-black"> 
+                <h1 class="is-size-1 is-uppercase has-text-weight-medium">Avinash Sorab</h1>
+                <h3 class="is-size-4 has-text-grey">Software Engineer | Web Developer | Sports Enthusiast</h3>
+                <p class="is-size-6">
+                        I'm a programmer by job, sportslover by heart.
+                        I started my career as a front-end web developer and learnt back-end development
+                        by myself to be a full stack web developer.
+                        I love solving coding problems. 
+                        I've been taking table tennis lessons and love playing tournaments. 
+                        I also like playing chess and solving chess puzzles online.
+                </p>
+                <a class="button is-warning is-medium contact-me"><b><span>Contact Me</span></b></a>
+                <a target="_blank" href="https://drive.google.com/file/d/1WgwaW_-U-bvIx1v6ezyEfJ-xuRiKHizI/view?usp=sharing" class="button is-warning is-medium"><b><span>My Resumé</span></b></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. SKILLS -->
+
+    <div id="skills">
+        <section class="hero is-medium is-dark is-bold">
+            <div class="hero-body">
+                <h1 class="title is-uppercase is-size-2">
+                    Skill Sets
+                </h1>
+                <br>
+                <h2 class="subtitle">
+                    Programming Languages, Technologies and Frameworks that
+                    I've been learning and have experience in.
+                </h2>
+            </div>
+        </section>
+        <div class="container">
+            <div class="cards">
+                <div class="tile is-ancestor">
+                    <div class="tile is-vertical is-8">
+                        <div class="tile">
+                            <div class="tile is-parent is-vertical is-4">
+                                <article class="tile is-child notification box">
+                                    <p class="title">HTML & CSS</p>
+                                    <progress class="progress is-small" value="85" max="100">85%</progress>
+                                    <figure class="image is-3by2">
+                                        <img src="./img/logo/html_and_css.png">
+                                    </figure>
+                                </article>
+                                <article class="tile is-child notification box">
+                                    <p class="title">jQuery</p>
+                                    <progress class="progress is-small" value="50" max="100">50%</progress>
+                                    <figure class="image is-2by1">
+                                        <img src="./img/logo/jquery.png">
+                                    </figure>
+                                </article>
+                            </div>
+                            <div class="tile is-parent is-vertical is-4">
+                                <article class="tile is-child notification box">
+                                    <p class="title">Angular</p>
+                                    <progress class="progress is-small" value="75" max="100">75%</progress>
+                                    <figure class="image is-3by3">
+                                        <img src="./img/logo/angular.svg">
+                                    </figure>
+                                </article>
+                                <article class="tile is-child notification box">
+                                    <p class="title">TypeScript</p>
+                                    <progress class="progress is-small" value="80" max="100">80%</progress>
+                                </article>
+                            </div>
+                            <div class="tile is-parent is-vertical is-4">
+                                <article class="tile is-child notification box">
+                                    <p class="title">Express and Node</p>
+                                    <progress class="progress is-small" value="70" max="100">70%</progress>
+                                    <figure class="image is-2by1">
+                                        <img src="./img/logo/express_and_node.png">
+                                    </figure>
+                                </article>
+                                <article class="tile is-child notification box">
+                                    <p class="title">Java Script</p>
+                                    <progress class="progress is-small" value="90" max="100">90%</progress>
+                                    <figure class="image is-2y2">
+                                        <img src="./img/logo/javascript.png">
+                                    </figure>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="tile is-parent">
+                            <article class="tile is-child notification box">
+                                <p class="title">C</p>
+                                <p class="subtitle"></p>
+                                <progress class="progress is-small" value="90" max="100">80%</progress>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="tile is-vertical is-4">
+                        <div class="tile">
+                            <div class="tile is-parent is-vertical is-6">
+                                <article class="tile is-child notification box">
+                                    <p class="title">GitHub</p>
+                                    <progress class="progress is-small" value="80" max="100">80%</progress>
+                                    <figure class="image is-5by2">
+                                        <img src="./img/logo/github.png">
+                                    </figure>
+                                </article>
+                                <article class="tile is-child notification box">
+                                    <p class="title">MySQL</p>
+                                    <progress class="progress is-small" value="70" max="100">70%</progress>
+                                    <figure class="image is-5by2">
+                                        <img src="./img/logo/mysql.svg">
+                                    </figure>
+                                </article>
+                                <article class="tile is-child notification box">
+                                    <p class="title">Python</p>
+                                    <progress class="progress is-small" value="72" max="100">72%</progress>
+                                    <figure class="image is-2by2">
+                                        <img src="./img/logo/python.png">
+                                    </figure>
+                                </article>
+                            </div>
+                            <div class="tile is-parent is-6">
+                                    <article class="tile is-child notification box">
+                                        <p class="title">Tools</p>
+                                        <br>
+                                        <p class="subtitle">NPM</p>
+                                        <p class="subtitle">MS Office</p>
+                                        <p class="subtitle">VS Code</p>
+                                        <p class="subtitle">Firebug</p>
+                                        <p class="subtitle">Perfect Pixel</p>
+                                        <p class="subtitle">Bootstrap</p>
+                                        <p class="subtitle">Bulma</p>
+                                        <p class="subtitle">GCS</p>
+                                        <p class="subtitle">BigQuery</p>
+                                        <p class="subtitle">RequireJS</p>
+                                        <p class="subtitle">JSX</p>
+                                        <p class="subtitle">Latex</p>
+                                    </article>
+                                        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. PROJECTS -->
+
+    <div id="projects">
+        <section class="hero is-medium is-dark is-bold">
+            <div class="hero-body">
+                <h1 class="title is-uppercase is-size-2">
+                    My works
+                </h1>
+                <br>
+                <h2 class="subtitle">
+                    All the projects that I've worked on as a full timer or as a part-time worker.
+                </h2>
+            </div>
+        </section>
+        <div class="container">
+            <div id="project-1">
+                <h1 class="is-size-1 is-center has-text-centered is-uppercase">Flight Data Monitoring</h1>
+                <hr>
+                <p class="is-size-6 has-text-centered">
+                    A program started by SIU Carbondale Aviation Flights and Management Team to analyze
+                    and detect hard landing and near miss and many other events in flights in a better way 
+                    using a web based tool so that students who fly the planes can be graded more accurately.
+                </p>
+                <div class="has-text-centered">
+                    <a href="https://github.com/avinashsp93/siu-aviation-data-monitoring" target="_blank" class="button is-warning is-medium"><b>More on GitHub</b></a>
+                    <a href="https://avinashsp93.github.io/siu-aviation-data-monitoring-client/" target="_blank" class="button is-warning is-medium"><b>Watch it Live</b></a>
+                </div>
+            </div>
+            <div id="project-2">
+                <h1 class="is-size-1 is-center has-text-centered is-uppercase">Checkout Redesign</h1>
+                <hr>
+                <p class="is-size-6 has-text-centered">
+                        The project was started by Apple with the goal of making the User Interface of their website 
+                        faster, easier and feature rich. The merchandize pages were designed using CanJS, an opensource 
+                        JavaScript Framework and the transaction pages using CoherentJS, an Apple designed JS Framework.
+                        It was later proposed to redesign various transaction pages such as Checkout, Shipping, Payment, 
+                        Confirmation using the latest web technologies like JSX and EcmaScript6.
+                </p>
+                <div class="has-text-centered">
+                    <a class="button is-warning is-medium disabled" disabled><b>More on GitHub</b></a>
+                    <a href="https://www.apple.com/checkout" target="_blank" class="button is-warning is-medium"><b>Watch it Live</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. CLIENTS -->
+
+    <div id="clients">
+        <section class="hero is-medium is-dark is-bold">
+            <div class="hero-body">
+                <h1 class="title is-uppercase is-size-2">
+                    Clients
+                </h1>
+                <br>
+                <h2 class="subtitle">
+                    What do they have to say about me.
+                </h2>
+            </div>
+        </section>
+        <div class="container">
+            <div class="quotes">
+                <blockquote>
+                    <p class="is-size-5 has-text-weight-semibold">
+                        The Data Monitoring tool has been implemented in a very impressive fashion 
+                        and Avinash seems to have an outstanding grasp on the concepts of Aircraft Dynamics.
+                    </p>
+                    <p><cite>&mdash; Kenneth Bro, Chief Flight Instructor</cite></p>
+                </blockquote>
+                <blockquote>
+                    <p class="is-size-5 has-text-weight-semibold">
+                        Avinash is hardworking, punctual and able to multi-task efficiently. He always 
+                        did the work assigned to him before the deadlines.
+                    </p>
+                    <p><cite>&mdash; Andy Ju An Wang, Dean</cite></p>
+                </blockquote>
+                <blockquote>
+                    <p class="is-size-5 has-text-weight-semibold">
+                        A very useful resource from offshore. Avinash caught up with us quickly and
+                        his suggestions and contributions were vital to the milestones the team reached.
+                    </p>
+                    <p><cite>&mdash; Nagendra H N, Technology Lead</cite></p>
+                </blockquote>
+                <blockquote>
+                    <p class="is-size-5 has-text-weight-semibold">
+                        The Data Monitoring tool has been implemented in a very impressive fashion 
+                        and Avinash seems to have an outstanding grasp on the concepts of Aircraft Dynamics.
+                    </p>
+                    <p><cite>&mdash; Kenneth Bro, Chief Flight Instructor</cite></p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+    <div class="clearfloat">
+
+    </div>
+
+    <!-- 6. ACTIVITIES -->
+
+    <div id="activities">
+        <section class="hero is-medium is-dark is-bold">
+            <div class="hero-body">
+                <h1 class="title is-uppercase is-size-2">
+                    Activities
+                </h1>
+                <br>
+                <h2 class="subtitle">
+                    Sports that I'm good at and would love to learn, explore and improving more in.
+                </h2>
+            </div>
+        </section>
+        <div class="covers">
+            <img src="./img/cover/chess.jpg" alt="">
+            <img src="./img/cover/tabletennis.jpg" alt="">
+        </div>
+        <div class="container">
+            <div id="activity-1">
+                <h1 class="is-size-1 is-center has-text-centered is-uppercase">Chess</h1>
+                <hr>
+                <p class="is-size-6 has-text-centered">
+                    I have been playing chess on and off for about 9 years. I love everything about the game
+                    and solve chess puzzles online, study opening theories, analyze middle games
+                    and learn various endgames. Over the years chess has taught me the ability to really focus 
+                    on the task your handling for an extended period of time.
+                    <br><br>
+                    Recently I've been playing a lot of fast Blitz and Bullet chess online. Blitz is where you typically
+                    only have 3-5 minutes of time with 5 or 2 or no-increment at all sometimes. This is more about
+                    pattern recognition, intuition and time-management. I like the addrenaline while playing fast chess and
+                    this breaks one of the stereotypes of this game making it more fun.
+                    <br><br>
+                    Visit my profile to see my latest ratings update. If you think I'm not good enough, feel free to
+                    challenge me :)
+                </p>
+                <div class="has-text-centered">
+                    <a href="https://www.chess.com/member/avinashsp93" target="_blank" class="button is-warning is-medium"><b>Chess.com</b></a>
+                    <a href="https://lichess.org/@/avinashsp93" target="_blank" class="button is-warning is-medium"><b>Lichess.org</b></a>
+                </div>
+            </div>
+            <div id="activity-2">
+                <h1 class="is-size-1 is-center has-text-centered is-uppercase">Table Tennis</h1>
+                <hr>
+                <p class="is-size-6 has-text-centered">
+                        I started playing table tennis at my first company Infosys. It started off as a recreational
+                        sport and later on I got serious enough to play regularly under private coach. I like the fact
+                        that this game involves a lot of technicalities and it needs good reflexes and hand eye 
+                        co-ordination to play at a higher level.
+                        <br><br>
+                        Table Tennis makes you feel humble since no matter how good you are there always are certain
+                        players who styles are hard to get used to which makes it even more challenging than it already is.
+                        You can find more of my practice session videos, tournaments played on my YouTube channel.
+                </p>
+                <div class="has-text-centered">
+                    <a href="https://usatt.simplycompete.com/userAccount/up/165685?embedded=true&isWorldEventEligible=Any&searchBy=lastname&query=Sorab&state=&max=25&arl=&arh=&list=" target="_blank" class="button is-warning is-medium"><b>USATT.org</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. CONTACT -->
+
+    <div id="contact">
+        <section class="hero is-medium is-dark is-bold">
+            <div class="hero-body">
+                <h1 class="title is-uppercase is-size-2">
+                    Let's create something great
+                </h1>
+                <br>
+                <p class="subtitle">
+                    Feel free to share your words, if you have any cool project to work on,
+                    Email me at avinashsp93@gmail.com
+                </p>
+                <button class="button is-large">
+                    <i class="fa fa-paper-plane"></i>
+                        &nbsp;&nbsp;&nbsp;
+                    <span><a href="mailto:avinashsp93@gmail.com">Mail</a></span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <!-- 8. FOOTER -->
+
+    <footer id="footer">
+        <div class="content has-text-centered column is-offset-one-quarter is-half">
+            <p class="is-size-5">
+                    © 2019 AVINASH SORAB . SOUTHERN ILLINOIS UNIVERSITY CARBONDALE .
+            </p>
+            <p class="social">
+                <a target="_blank" href="https://www.youtube.com/channel/UCXHUHHAMQNxPwCo_yjL8Lmg"><i class="fa fa-youtube"></i></a>
+                <a target="_blank" href="https://www.facebook.com/avinash.prabhakar.56"><i class="fa fa-facebook"></i></a>
+                <a target="_blank" href="https://www.instagram.com/avinashsp93"><i class="fa fa-instagram"></i></a>
+                <a target="_blank" href="https://twitter.com/avinashsp93"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.quora.com/profile/Avinash-Prabhakar-10"><i class="fa fa-quora"></i></a>
+                <a target="_blank" href="https://github.com/avinashsp93"><i class="fa fa-github"></i></a>
+            </p>
+            <p class="is-size-7">
+                    This site was made possible with great frameworks and tools like Bulma, Font Awesome, JQuery, 
+                    Visual Studio Code, NodeJS and GitHub.
+            </p>
+        </div>
+    </footer>
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<script src="./js/main.js"></script>
+</html>
