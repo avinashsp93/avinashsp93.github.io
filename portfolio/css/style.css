@@ -64,8 +64,8 @@ a.navbar-item:hover {
 }
 
 #skills .box {
-    background-color: #F7DD56;
-    color: #000;
+    background-color: rgb(184, 184, 184);
+    color: rgb(0, 0, 0);
     -webkit-transition-property: background-color color border-radius; /* Safari prior 6.1 */
     -webkit-transition-duration: 1s;
     transition-property: background-color color border-radius;
@@ -73,8 +73,8 @@ a.navbar-item:hover {
 }
 
 #skills .box:hover{
-    background-color: #000;
-    color: #F7DD56;
+    background-color: rgb(128, 128, 128);
+    color: rgb(255, 255, 255);
     border-radius: 20px;
 }
 
