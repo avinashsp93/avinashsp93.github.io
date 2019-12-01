@@ -91,6 +91,11 @@ a.navbar-item:hover {
     height: auto;
 }
 
+#project-1 .logo, #project-2 .logo {
+    width: 300px;
+    margin: auto;
+    height: auto;
+}
 
 #project-1 .snippets img:nth-child(1) {
     animation-name: p1-fade-in-out-1;
@@ -570,6 +575,14 @@ a.navbar-item:hover {
         height: 300px;
     }
 
+    #project-1 .logo, #project-2 .logo {
+        display: none;
+    }
+
+    #project-1 hr, #project-2 hr {
+        display: none;
+    }
+
     #clients .quotes {
         margin: 30px 0;
     }
@@ -681,4 +694,11 @@ a.navbar-item:hover {
     #activities {
         margin-bottom: 100px;
     } */
+}
+
+@media only screen and (max-width: 1176px) {
+    #activity-1 , #activity-2 {
+        margin-top: 0px;
+        margin-bottom: 200px;
+    }
 }
