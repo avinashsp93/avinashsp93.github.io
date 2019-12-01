@@ -64,7 +64,18 @@ a.navbar-item:hover {
 }
 
 #skills .box {
-    background-color: #ccc;
+    background-color: #F7DD56;
+    color: #000;
+    -webkit-transition-property: background-color color border-radius; /* Safari prior 6.1 */
+    -webkit-transition-duration: 1s;
+    transition-property: background-color color border-radius;
+    transition-duration: 1s;
+}
+
+#skills .box:hover{
+    background-color: #000;
+    color: #F7DD56;
+    border-radius: 20px;
 }
 
 #projects {
