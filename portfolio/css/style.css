@@ -32,13 +32,13 @@ a.navbar-item:hover {
 
 #cover {
     margin-top: 70px;
-    margin-bottom: 270px;
+    margin-bottom: 200px;
 }
 
 #cover img{
     position: absolute;
-    margin-top: -70px;
     z-index: -5;
+    margin-top: -70px;
 }
 #bio-self {
     width: 400px;
