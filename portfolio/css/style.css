@@ -64,18 +64,12 @@ a.navbar-item:hover {
 }
 
 #skills .box {
-    background-color: rgb(184, 184, 184);
-    color: rgb(0, 0, 0);
-    -webkit-transition-property: background-color color border-radius; /* Safari prior 6.1 */
-    -webkit-transition-duration: 1s;
-    transition-property: background-color color border-radius;
-    transition-duration: 1s;
+    background: linear-gradient(60deg, rgb(228, 225, 225) 0%, rgb(209, 204, 201) 30%, rgb(186, 185, 187) 100%);
+    color: rgb(73, 55, 50);
 }
 
 #skills .box:hover{
-    background-color: rgb(128, 128, 128);
-    color: rgb(255, 255, 255);
-    border-radius: 20px;
+    background: linear-gradient(60deg, rgb(228, 225, 225) 0%, rgb(209, 204, 201) 70%, rgb(186, 185, 187) 100%);
 }
 
 #projects {
