@@ -1,3 +1,15 @@
+.navbarWhenOnTop {
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0px rgba(240, 188, 84, 0.0);
+    height: 100px;
+}
+
+.navBarElseWhere {
+    background-color: #F0BC54;
+    box-shadow: 0 0 5px rgba(240, 188, 84, 0.9);
+    height: 68px;
+}
+
 /* Only properties of Bulma to be overridden is written here */
 
 a, a:hover {
@@ -10,7 +22,17 @@ header {
     left: 0px;
     width: 100%;
     z-index: 5;
-    background-color: #F0BC54;
+    background-color: rgba(255, 255, 255, 0);
+    height: 100px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+nav#header {
+    height: inherit;
 }
 
 .navbar-menu {
@@ -20,6 +42,11 @@ header {
 .navbar-item img {
     position: relative;
     max-height: 3.25rem;
+    margin-right: 500px;
+}
+
+a.navbar-item {
+    font-size: 0.85em;
 }
 
 a.navbar-item:hover {
@@ -31,18 +58,14 @@ a.navbar-item:hover {
 /* CSS for Cover Section */
 
 #cover {
-    margin-top: 70px;
-    margin-bottom: 200px;
+    background: #890 url('./../img/cover/avi_img_2.jpg') no-repeat fixed;
+    padding-bottom: 400px;
+
 }
 
-#cover img{
-    position: absolute;
-    z-index: -5;
-    margin-top: -70px;
-}
 #bio-self {
     width: 400px;
-    padding-top: 50px;
+    padding-top: 300px;
 }
 
 #bio-self p {
@@ -573,7 +596,6 @@ a.navbar-item:hover {
 
     #bio-self {
         width: 100%;
-        padding-top: 340px;
     }
 
     #project-1 .snippets, #project-2 .snippets {
@@ -647,7 +669,6 @@ a.navbar-item:hover {
 
     #bio-self {
         width: 100%;
-        padding-top: 450px;
     }
 
     #clients .quotes {
