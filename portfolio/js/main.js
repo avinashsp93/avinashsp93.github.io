@@ -7,11 +7,13 @@ $(document).ready(function() {
         let coverScroll = -1 * windowScroll/10
         $('div#cover').css('background-position', `50% ${coverScroll}px`);
 
-        if(windowScroll < 1150) {
+
+        if(windowScroll < 850) {
             if($('header').hasClass('navBarElseWhere') == true) {
                 $('header').removeClass('navBarElseWhere');
             }
             $('header').addClass('navBarWhenOnTop');
+
         } else {
             if($('header').hasClass('navBarWhenOnTop') == true) {
                 $('header').removeClass('navBarWhenOnTop');
