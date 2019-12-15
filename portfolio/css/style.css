@@ -302,12 +302,11 @@ a.navbar-item:hover {
 }
 
 #clients .container {
-    height: 200px;
+    margin-top: 40px;
 }
 
 #clients .quotes {
     width: 80%;
-    padding-top: 100px;
     margin: auto;
     text-align: center;
 }
@@ -316,7 +315,7 @@ a.navbar-item:hover {
     list-style-type: none;
     position: relative;
     overflow: hidden;
-    height: 300px;
+    height: 200px;
 }
 
 #clients .quotes ul li {
@@ -466,41 +465,51 @@ a.navbar-item:hover {
     }
 }
 
-.clearfloat {
-    margin: 200px;
-    clear: both;
+#activities {
+    position: relative;
+    height: 1800px;
 }
 
-#activities {
-    margin-bottom: 160px;
+#activities .activity-images {
+    top: 400px;
+    position: absolute;
+    width: inherit;
+    width: 100%;
+    z-index: -10;
+}
+
+#activities p {
+    width: 80%;
+    margin: auto;
 }
 
 #activity-1, #activity-2 {
-    color: #fff;
+    color: #EEE;
+    margin-top: 200px;
+    margin-bottom: 150px;
+
 }
 
-#activity-1 {
-    margin-top: 100px;
-    margin-bottom: 500px;
-    color: #fff;
+
+
+#activities .activity-image-1 {
+    background: rgba(232, 232, 232, 1) url('./../img/cover/chess2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    filter: brightness(35%);
+    -webkit-filter: brightness(35%);
 }
 
-#activity-2 {
-    margin-top: 600px;
-    color: #fff;
-}
-
-#activities .covers {
-    position        : absolute;
-}
-
-#activities img {
-    position        : relative;
-    margin-top      : -6px;
-    z-index         : -5;
-    -webkit-filter  : brightness(35%);
-    filter          : brightness(35%);
-    width           : 100%;
+#activities .activity-image-2 {
+    background: rgba(232, 232, 232, 1) url('./../img/cover/tabletennis.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+    filter: brightness(35%);
+    -webkit-filter: brightness(35%);
 }
 
 #activities a.is-medium {
@@ -623,67 +632,23 @@ a.navbar-item:hover {
         display: none;
     }
 
+    #activities p {
+        width: 100%;
+    }
     
-
-    #activity-1 {
-        margin-top: 0px;
-        margin-bottom: 0px;
+    #activity-1, #activity-2 {
+        margin-top: 50px;
     }
 
-    #activity-1 .extra-details, #activity-2 .extra-details {
-        display: none;
-    }
-
-    #activity-2 {
-        margin-top: 160px;
-        margin-bottom: 0px;
-    }
-
-    #activities a.is-medium {
-        margin: 0 20px 0;
-    }
-
-    #activities {
-        margin-bottom: 100px;
-    }
 }
 
 /* Tablet media query */
 @media only screen and (max-width: 768px) {
-    #cover {
-        margin-bottom: 50px;
+    #activities .activity-images {
+        top: 200px;
     }
 
-    #bio-self {
+    #activities p {
         width: 100%;
-    }
-
-    #activity-1 {
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-
-    #activity-1 .extra-details, #activity-2 .extra-details {
-        display: none;
-    }
-
-    #activity-2 {
-        margin-top: 160px;
-        margin-bottom: 0px;
-    }
-
-    /* #activities a.is-medium {
-        margin: 0 20px 0;
-    }
-
-    #activities {
-        margin-bottom: 100px;
-    } */
-}
-
-@media only screen and (max-width: 1176px) {
-    #activity-1 , #activity-2 {
-        margin-top: 0px;
-        margin-bottom: 200px;
     }
 }
