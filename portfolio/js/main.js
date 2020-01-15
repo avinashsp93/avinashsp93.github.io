@@ -8,7 +8,7 @@ $(document).ready(function() {
         $('div#cover').css('background-position', `50% ${coverScroll}px`);
 
 
-        if(windowScroll < 850) {
+        if(windowScroll < 950) {
             if($('header').hasClass('navBarElseWhere') == true) {
                 $('header').removeClass('navBarElseWhere');
             }
@@ -64,8 +64,5 @@ $(document).ready(function() {
             {scrollTop: $("#contact").offset().top}, 1500
         )
     });
-
-
-// console.log($("#clients blockquote")[0].prop("left"));
 
 })
