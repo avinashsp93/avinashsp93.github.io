@@ -83,6 +83,10 @@ a.navbar-item:hover {
     color: #FFDD57;
 }
 
+#bio-self .justify {
+    text-align: justify;
+}
+
 #skills .cards {
     padding: 20px 0px;
 }

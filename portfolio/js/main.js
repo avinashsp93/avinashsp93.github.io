@@ -8,7 +8,7 @@ $(document).ready(function() {
         $('div#cover').css('background-position', `50% ${coverScroll}px`);
 
 
-        if(windowScroll < 950) {
+        if(windowScroll < 1100) {
             if($('header').hasClass('navBarElseWhere') == true) {
                 $('header').removeClass('navBarElseWhere');
             }
