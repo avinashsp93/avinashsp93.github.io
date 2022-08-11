@@ -1,7 +1,6 @@
 // Scroll to events on click of nav buttons
 $(document).ready(function() {
-
-
+    
     $(document).scroll(function() {
         let windowScroll = $(window).scrollTop();
         let coverScroll = -1 * windowScroll/10
@@ -65,4 +64,7 @@ $(document).ready(function() {
         )
     });
 
+    $.get("https://polar-spire-19222.herokuapp.com/", function(data) {
+        console.log(data);
+    });
 })
